@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="cabeça-principal">
+    <section>
+      <div>
+        <h1 class="titulo">PESQUISA DE SATISFAÇÃO</h1> 
+        <P class="introducao"><strong></strong>Essa página é especialmente dedicada a você leitor, para sabermos se essa pesquisa foi satisfátória no âmbito da ampliação do conhecimento sobre o Bootstrap! </P>
+      </div>
+      <img class="imagem-feliz" src="image/image6.jpg" alt="imagem-feliz">
+      <img class="imagem-triste" src="image/image9.jpg" alt="imagem-triste">
+    </section>
+   </header> 
+
+   <main>
+    <section class="formulario">
+      <h2>Nos dê seu feedback: Em uma escala de 0 à 10, o quanto essa pesquisa foi relevante?</h2>
+      <form class="opcao">
+        <input type="radio" value="0" id="fd0" name="feedback"
+        <label for="fd0">0</label>
+        <input type="radio" value="1" id="fd1" name="feedback"
+        <label for="fd1">1</label>
+        <input type="radio" value="2" id="fd2" name="feedback"
+        <label for="fd2">2</label>
+        <input type="radio" value="3" id="fd3" name="feedback"
+        <label for="fd3">3</label>
+        <input type="radio" value="4" id="fd4" name="feedback"
+        <label for="fd4">4</label>
+        <input type="radio" value="5" id="fd5" name="feedback"
+        <label for="fd5">5</label>
+        <input type="radio" value="6" id="fd6" name="feedback"
+        <label for="fd6">6</label>
+        <input type="radio" value="7" id="fd7" name="feedback"
+        <label for="fd7">7</label>
+        <input type="radio" value="8" id="fd8" name="feedback"
+        <label for="fd8">8</label>
+        <input type="radio" value="9" id="fd9" name="feedback"
+        <label for="fd9">9</label>
+        <input type="radio" value="10" id="fd10" name="feedback"
+        <label for="fd10">10</label>
+      </form>
+    </section>
+
+    <section>
+      <h2 class="contato">Deixe seu contato para que possamos enviar mais pesquisas relacionadas a esse tema e aproveite deixe um comentário para que possamos melhorar!</h2>
+        <form>
+            <fieldset>
+                <legend>Informações de contato</legend>
+                <label for="name">Nome completo:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="comentarios">Comentários:</label><br>
+                <textarea  id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seu comentário aqui"></textarea><br>
+                <button onclick="alert('Feedback enviado')">Envie o Feedback</button>
+            </fieldset>
+        </form>
+    </section>
+   </main>
+</body>
+</html>
